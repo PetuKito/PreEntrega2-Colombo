@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #35605A;
+    text-align: right;
+}
+.navbar a{
+    color: white;
+    
+}
+.navbar-toggler{
+    color: white;
+    border-color: gray;
+}
+.carousel-item{
+    height: 700px;
+}
+.link-nosotros{
+    width: 100%;
+    text-align: center;
+    background-color:#d8e4ff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar-icono{
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+}
+.logo-footer{
+    width: 100px;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    background-color: #35605A;
+}
+.card{
+    margin-left: 30px;
+}
+
+#sobre-nosotros h1 p{
+    text-align: right;
+    
+}
+.redes img{
+    margin-right: 15px;
+   width: 40px;
+}
+#sobre-nosotros{
+    display: grid;
+    grid-template-areas: 
+    "mapanosotros infonosotros"
+    "mapanosotros videonosotros";
+    gap: 5px;
+}
+.mapa-nosotros{
+    grid-area: mapanosotros;
+}
+.info-nosotros{
+    grid-area: infonosotros;
+}
+.video-nosotros{
+    grid-area: videonosotros;
+}

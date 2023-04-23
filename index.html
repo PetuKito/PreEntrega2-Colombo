@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./img/VAlogo.png">
+    <!--Link CSS Bootstrap-->
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <!--Link de css de forma externa-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap"
+    rel="stylesheet">
+    <title>VAutohaus</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="index.html">
+                    <img src="./img/VAnombre.png" alt="Logo VAutohaus" title="Este es el logo de VAutohaus" class="navbar-icono">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/login.html">Login/Registrarse</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/comprar.html">Comprar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/vender.html">Vender</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <nav class="link-nosotros">
+        <a href="#sobre-nosotros">SOBRE NOSOTROS</a>
+    </nav>
+    
+    <div>
+        <!--Slider-->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/carrousel1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Rolls Royce</h5>
+                  <p>Vehiculos de lujo</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/carrousel2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Audi</h5>
+                  <p>Vehiculos deportivos</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/carrousel3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Porsche</h5>
+                  <p>Supervehiculos</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <Section id="sobre-nosotros" >
+      <div class="info-nosotros">
+        <h1>SOBRE NOSOTROS</h1>
+        <p>VoregoAutohaus nace en del 2023, cómo una página donde publicar vehiculos de buen estado para aumentar su visibilidad.
+
+          Dada la buena respuesta de seguidores y amigos, VA se convierte hoy en una plataforma digital donde entusiastas van a poder comprar o vender de una manera distinta, con foco en la claridad y honestidad, todo tipo de vehículos relacionado a esta fascinante pasión, que nos abre la puerta a vivir viajes, conocer gente y disfrutar de eventos que van mucho más allá de “tener de un auto”.
+          
+          VA no busca ser el sitio con más ventas de autos, sino ser el lugar donde se sienta que es posible comprar o vender de manera realmente clara y confiable.
+          
+          Si buscas vender tu auto o comprar uno, a valores reales de mercado, ponete en contacto con VA.</p>
+      </div>
+      <div class="mapa-nosotros">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104795.9327449679!2d-5
+          6.267682807620396!3d-34.83428807616206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0
+          x959f80ffc63bf7d3%3A0x6b321b2e355bec99!2sMontevideo%2C%20Departamento%20de%20Montevideo!5e
+          0!3m2!1ses!2suy!4v1680212282516!5m2!1ses!2suy" width="960" height="750" style="border:0;" 
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+      </div>
+
+      <div>
+          <iframe class="video video-nosotros" width="860" height="500" src="https://www.youtube.com/embed/31kplxJn6nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </Section>
+    
+    
+    
+    <footer>
+        <div class="redes">
+          <img src="./img/instagram.svg" alt="Icono Instagram">
+          <img src="./img/facebook.svg" alt="Icono Facebook">
+          <img src="./img/whatsapp-icon.svg" alt="Icono Whatsapp">
+        </div>
+    </footer>
+
+    <script src="./bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
